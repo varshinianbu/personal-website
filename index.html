@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>hello</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logos">
+                <img src="images/battery.png" alt="battery image">
+            </div>
+            <div class="logos">
+                <img src="images/wifi.png" alt="wifi image">
+            </div>
+            <div id="date"></div>
+            <div id="time"></div>
+        </nav>
+        
+        <div id="asleep">
+            <div id="clock">
+                <div class="time-box" id="hours">--</div>
+                <div class="time-box" id="minutes">--</div>
+                <div class="time-box" id="seconds">--</div>
+                <div class="time-box" id="ampm">--</div>
+            </div>
+            
+            <p>Press SPACE to enter</p>
+        </div>
+
+        <div id="awake" class="hidden">
+            <h1>Hello!</h1>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
